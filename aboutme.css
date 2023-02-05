@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anybody&family=Jost&family=Libre+Baskerville&family=Monoton&family=Nabla&family=Noto+Serif+JP:wght@500&family=Permanent+Marker&family=Press+Start+2P&family=Righteous&family=Roboto+Condensed&family=Rubik+Glitch&family=Satisfy&family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+
+html { 
+    overflow-y: hidden;
+    overflow-x: hidden;
+ }
+body{
+    height:100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(67, 44, 122, 0.8),rgba(255, 143, 177, 0.9));
+    background-size: 100% 100%;
+    background-position: center;
+}
+h1{
+   text-align: center;
+   color: rgb(255, 143, 177); 
+   font-family: 'Roboto Condensed', sans-serif;
+}
+.personalprofile {
+    font-family: 'Space Mono', monospace;
+    background:linear-gradient(rgba(255, 143, 177, 0.9),rgba(67, 44, 122, 0.8));
+    float: left ;
+    animation-name: aboutme;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    width: 350px;
+    line-height: 30px; 
+    margin-left: 14%; 
+    margin-bottom: 40%;
+    border: 2px;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.label1{
+    font-weight: bold;
+    text-align: center;
+    color:rgb(252, 226, 219);
+    transition: all 0.3s ease-in-out;
+}
+.personalprofile :hover{
+    background-color: rgba(255, 52, 137, 0.678);
+    font-style: italic;
+    border-radius: 15px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.label2{
+    font-weight: bold;
+    text-align: center;
+    color:rgb(252, 226, 219);
+    transition: all 0.3s ease-in-out;
+}
+.educ{
+    background:linear-gradient(rgba(255, 143, 177, 0.9),rgba(67, 44, 122, 0.8));
+    font-family: 'Space Mono', monospace;
+    float: left ;
+    width: 350px;
+    animation-name: aboutme;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    line-height: 30px; 
+    margin-left: 10%; 
+    margin-bottom: 40%;
+    border: 2px;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.educ :hover{
+    background-color: rgba(255, 52, 137, 0.678);
+    font-style: italic;
+    border-radius: 15px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+@keyframes aboutme{
+    from{
+        background:linear-gradient(rgba(255, 143, 177, 0.9),rgba(67, 44, 122, 0.8));
+    }
+    to{
+        background:linear-gradient(rgba(67, 44, 122, 0.8), rgba(255, 143, 177, 0.9));
+    }
+}
